@@ -1,0 +1,225 @@
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background: #CCC url(images/tac.bg_page.png) repeat-x;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+  padding: 0;
+  margin: 0;
+  font-family: Times New Roman, Times, serif;
+}
+
+h1 { /* main headline */
+ font-size: 24px;
+ color: #666;
+ font-weight: normal;
+}
+
+h2 { /* subheadline */
+ font-size: 17px;
+ color: #333;
+ font-weight: normal;
+ padding: 0 0 0 15px;
+}
+
+h5 { /* headline in left column (white text on blue background) */
+ background: #000033 url(images/bg_naviHeadline.png) repeat-x;
+ font-size: 15px;
+ font-weight: normal;
+ color: white;
+ height: 25px;
+ padding: 5px 0 0 10px;
+}
+
+p {
+  text-align: justify;
+  font-size: 15px;
+  line-height: 160%;
+}
+
+hr {
+  width: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px dotted #ccc;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+
+blockquote {
+  font-size: 15px;
+  border: 1px solid #000033;
+  background: url(images/tac.bg_blockquote.png) no-repeat 1px 1px;
+  padding: 25px 0px 25px 70px;
+  margin: 20px 0 0 5px;
+}
+
+
+#header {
+  position: absolute;
+  left: 50%;
+  margin-left: -502px;
+  top: 50px;
+  width: 1005px;
+  height: 190px;
+  background: url(images/tac.header_bgimg.png) no-repeat;
+}
+
+#header img { /* this is your company logo... */
+  position: absolute;
+  right: 130px;
+  top: 70px;
+}
+
+#header h1 { /* company name ... */
+  color: #FFF;
+  font-size: 30px;
+  font-weight: normal;
+  position: absolute;
+  right: 180px;
+  top: 65px;
+}
+
+#header h2 { /* company slogan ... */
+  color: #FFF;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  right: 170px;
+  top: 100px;
+}
+
+#top_navigation {
+  position: absolute;
+  left: 50%;
+  margin-left: -498px;
+  top: 240px;
+  width: 997px;
+  height: 40px;
+  background: url(images/tac.bg_topnav.png) repeat-x;
+}
+
+#top_navigation ul, #top_navigation li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #000033;
+}
+
+#top_navigation li {
+  float: left;
+  padding: 11px 10px 0px 17px;
+  background: url(images/tac.divider_topnav.png) no-repeat 0px 14px;
+}
+
+#top_navigation li.first {background: none;}
+
+#top_navigation a {
+  color: #000033;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#top_navigation a:hover {
+  font-weight: normal;
+  color: #0000C6;
+}
+
+#main_site {
+  position: absolute;
+  left: 50%;
+  margin-left: -498px;
+  top: 280px;
+  width: 997px;
+  background: #FFF url(images/tac.bg_content_top.png) repeat-x;
+}
+
+#content_leftColumn {
+  position: static;
+  float: left;
+  width: 200px;
+  padding: 40px 0 20px 1px;
+}
+
+#content_leftColumn ul, #content_leftColumn li {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #000033;
+  list-style-type: none;
+}
+#content_leftColumn ul {
+  margin: 1px 0 0 0;
+}
+
+#content_leftColumn li {
+  padding: 9px 0px 9px 24px;
+  background-color: #EEEEF1;
+  border-bottom: 1px solid #4C4C70;
+  margin-bottom: 1px;
+  background: url(images/tac.list_navi_level1.png) no-repeat 8px 11px;
+}
+
+#content_leftColumn li.level2 {
+  padding: 9px 0px 9px 30px;
+  font-size: 11px;
+  background-color: #F9F9FA;
+  border-bottom: 1px solid #4C4C70;
+  margin-bottom: 1px;
+  background: url(images/tac.list_navi_level2.png) no-repeat 14px 11px;
+}
+
+#content_leftColumn a {
+  color: #000033;
+  text-decoration: none;
+}
+
+#content_leftColumn a:hover {
+  color: #0000C6;
+  text-decoration: none;
+}
+
+
+#content_rightColumn {
+  position: static;
+  float: right;
+  width: 750px;
+  margin: 0 20px 0 0;
+  padding: 25px 0 25px 0;
+}
+
+#content_rightColumn img {
+  padding: 1px;
+  border: 1px solid #000033;
+}
+
+#footer  {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  line-height: 150%;
+  clear: both;
+  height: 40px;
+  background: url(images/tac.bg_footer.jpg) bottom left no-repeat;
+  padding-top: 45px;
+  text-align: center;
+  color: #FFF;
+}
+
+#footer a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+#footer p {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  color: #F0F0F0;
+}
+
